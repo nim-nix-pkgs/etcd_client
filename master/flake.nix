@@ -11,6 +11,7 @@
   inputs.src-etcd_client-master.ref   = "refs/heads/master";
   inputs.src-etcd_client-master.owner = "FedericoCeratto";
   inputs.src-etcd_client-master.repo  = "nim-etcd-client";
+  inputs.src-etcd_client-master.dir   = "";
   inputs.src-etcd_client-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
